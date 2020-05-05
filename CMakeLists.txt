@@ -24,6 +24,7 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(Boost REQUIRED COMPONENTS system)
 find_package(cmake_modules REQUIRED)
 find_package(catkin REQUIRED dynamic_reconfigure)
+find_package(catkin REQUIRED COMPONENTS moveit_ros_planning_interface)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures
