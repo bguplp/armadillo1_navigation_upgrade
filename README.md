@@ -1,7 +1,9 @@
 # armadillo2_navigation_upgrade
 Additional config for armadillo2 navigation
 
-## in order to use dynamic reconfiguration for move_base, use the following commands:
+## runing
+
+* in order to use dynamic reconfiguration for move_base, use the following commands:
 
 for the real robot use:
 ```bash
