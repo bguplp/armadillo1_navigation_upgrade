@@ -58,6 +58,7 @@
   <build_depend>moveit_ros_planning_interface</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>moveit_msgs</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
 
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
@@ -68,6 +69,9 @@
   <exec_depend>moveit_ros_planning_interface</exec_depend>
   <exec_depend>tf</exec_depend>
   <exec_depend>moveit_msgs</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+
+  <build_export_depend>dynamic_reconfigure</build_export_depend>
 
 
   <!-- The export tag contains other, unspecified, tags -->

@@ -17,11 +17,13 @@ find_package(catkin REQUIRED COMPONENTS
   moveit_ros_planning
   moveit_ros_planning_interface
   tf
+  dynamic_reconfigure
 )
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED COMPONENTS system)
 find_package(cmake_modules REQUIRED)
+find_package(catkin REQUIRED dynamic_reconfigure)
 
 
 ## Uncomment this if the package has a setup.py. This macro ensures

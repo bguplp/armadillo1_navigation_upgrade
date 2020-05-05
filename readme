@@ -1,0 +1,10 @@
+in order to use dynamic reconfiguration for move_base, you should do:
+
+for the real robot use:
+$ roslaunch tal armadillo1.launch lidar:=true amcl:=true have_map:=true map:="<paht_to_map>/<map_name.yaml>" move_base:=true
+
+to navigate through doors, use:
+$ rosrun dynamic_cfg move_base_pass_through_doors.py
+
+for basics configuration, use:
+$ rosrun dynamic_cfg move_base_basic.py
