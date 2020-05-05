@@ -5,7 +5,7 @@
   <arg name="x" default="0.0"/>
   <arg name="y" default="0.0"/>
   <arg name="Y" default="0.0" />
-  <arg name="map_file" default="$(find armadillo2_navigation_upgrade)/map/map_4.yaml"/>
+  <arg name="map_file" default="$(find armadillo1_navigation_upgrade)/map/map_4.yaml"/>
   
   
   <!--<node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />-->
