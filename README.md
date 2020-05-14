@@ -1,5 +1,5 @@
-# armadillo2_navigation_upgrade
-Additional config for armadillo2 navigation
+# armadillo1_navigation_upgrade
+Additional config for armadillo1 navigation
 
 ## runing
 
